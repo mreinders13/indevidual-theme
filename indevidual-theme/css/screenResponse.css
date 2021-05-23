@@ -1,0 +1,111 @@
+@media screen and (max-width: 825px) {
+
+    #siteHeader {
+        width: 100%;
+        text-align: center;
+        height: 75px;
+        display: inline-block;
+		margin-bottom:1%;
+    }
+
+    #site-title  p {
+        text-align: center;
+
+    }
+    
+    #nav-bar {
+        width: 100%;
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    a.nav-class {
+        line-height: 50px;
+    }
+    
+    /*   Set Correct Banner Image   */
+    
+    #home-banner {
+        display: none;
+    }
+
+    #home-banner-800 {
+        display: block;
+        width:100%;
+        margin: 0;
+    }
+    
+    #home-banner-480 {
+        display: none;
+    }
+
+    /*  Set correct page-main-content */
+    #page-main-content {
+        margin: 1% 0;
+    }
+}
+/* ----------------SET PROFILE IMAGE----------------------- */
+
+@media screen and (max-width: 620px) {
+	#profile-content-wide {
+		display: none;
+	}
+
+	#profile-content-narrow {
+		display: block;
+	}
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+
+
+    #site-title {
+        position: relative;
+        text-align: center;
+    }
+
+    #page-main-content {
+        margin: 1% 0;
+    }
+    
+        /*   Set Correct Banner Image   */
+    
+    #home-banner {
+        display: none;
+    }
+
+    #home-banner-800 {
+       display: none; 
+    }
+    
+    #home-banner-480 {
+        display: block;
+        width:100%;
+        margin: 0;
+    }
+}
+
+/*-------------------------Contact Logo Response-----------------------------*/
+.clickable-icon {
+    display:inline-block;
+    margin: 10%;
+    text-align:center;
+}
+
+@media screen and (max-width: 1000px) {
+    .clickable-icon {
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .clickable-icon {
+        margin: 2.5%;
+
+    }
+    img.clickable-icon {
+        max-width: 20%;
+    }
+
+}

@@ -1,0 +1,206 @@
+/*
+Theme Name: InDevidual Theme
+Theme URI: https://michael-reinders.com/indevidual-theme
+Author: Michael Reinders
+Author URI: https://michael-reinders.com
+Description: Custom Theme for Developer Portfolios and/or other Individual Portfolio Sites. This is an unofficial WP Theme not yet adhering to WP Standards + Compliance and is intended for developers and advanced users looking for a starting point or basic theme to customize. WP/PHP Development experience is required, please use [domain]/wp-admin/theme-editor.php to edit the theme files. 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: indevidual-theme
+Tags: custom site logo, portfolio, developer
+*/
+
+
+
+/*------------------------------SiteHeader--------------------------------*/
+#siteHeader {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+}
+
+
+/*------------------------------Site Logo----------------------------*/
+.custom-logoAbbv {
+	vertical-align:center;
+	display: inline-block;
+    margin: 15px auto;
+    padding: 5px 25px;
+}
+
+.custom-logo {
+    display: inline-block;
+    vertical-align: middle;
+	height:75px;
+	padding-top:10px;
+}
+
+.custom-logo img {
+    width: 75px;
+	height:75px;
+	margin-top:-12px;
+}
+
+.custom-initials {
+	display:inline-block;
+	background-color:#E4E5E7;
+	border-radius:50%;
+	height:75px;
+	width:75px;
+}
+
+.custom-initials p {
+	width:75px;
+	color:#707070;
+	display: inline-block;
+	vertical-align:absolute;
+	text-align:center;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	margin: 21px auto;
+}
+
+/*------------------------------Site Title----------------------------*/
+
+#site-title {
+    display: inline-block;
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: #707070;
+	margin: 0 0 0 15px;
+	height:75px;
+}
+
+/*--------------------------Navigation--------------------------------*/
+
+#nav-bar {
+    float: right;
+    width: 50%;
+    
+}
+
+.main-menu-container ul {
+	text-align:center;
+}
+
+.menu-item {
+
+    margin: 0;
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    line-height: 100px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#nav-bar ul.menu a {
+    margin: 0;
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    line-height: 100px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    padding-left:0 !important;
+}
+
+#nav-bar ul.menu {
+	padding-left:0;
+    margin:0;
+}
+
+#nav-bar ul.menu li.current-menu-item > a {color:black; font-size:18px;}
+#nav-bar ul.menu li > a:hover {color:black;font-size:17px;}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*---------------------------------Banner Images-------------*/
+
+#home-banner {
+    display: block;
+    width:100%;
+    margin: 0;
+}
+
+#home-banner-800 {
+    display: none;
+}
+
+#home-banner-480 {
+    display: none;
+}
+
+/*---------------------------------Preview Images-------------------------*/
+.preview-img {
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------------------Main Content---------------------------*/
+ 
+#page-main-content {
+    margin: 0 15%;
+    text-align: justify;
+	font-family: 'Muli', sans-serif;
+}
+
+#page-main-content h1 {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    
+}
+
+#page-main-content p {
+    line-height: 1.8;
+    color: #515151;
+}
+
+/*----------------------Footer Styling-------------------------------*/
+#footer a {
+    text-decoration: none;
+    color:#707070;
+    font-size: 16px;
+}
+
+#footer {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color:#707070;
+    margin: 2.5%;
+
+}
+
+#footer a:hover {
+    color:black;
+    font-size: 17px;
+}
+
+img.clickable-icon {margin: 5% 5% 0 5%;}
+
+/*---------------------- About Page ----------------------*/
+#profile-content-wide a, #profile-content-narrow a {
+	text-decoration:none; 
+	color:#707070;
+}
+
+#profile-content-wide a:hover, #profile-content-narrow a:hover {
+	font-weight:bold;
+}
